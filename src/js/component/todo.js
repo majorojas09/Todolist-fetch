@@ -112,10 +112,9 @@ export const ToDo = () => {
 							let todos = [];
 							data.forEach(value => {
 								if (
-									value.label ===
+									value.label !=
 									"01001110 01101111 00100000 01110100 01100001 01110011 01101011 01110011"
 								) {
-								} else {
 									todos.push(value.label);
 								}
 							});
